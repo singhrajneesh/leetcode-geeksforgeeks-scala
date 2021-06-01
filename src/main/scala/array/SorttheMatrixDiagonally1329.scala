@@ -1,3 +1,5 @@
+package array
+
 object SorttheMatrixDiagonally1329 {
   def diagonalSort(mat: Array[Array[Int]]): Array[Array[Int]] = {
     //(key=subtract of indices and value=values of matrix)

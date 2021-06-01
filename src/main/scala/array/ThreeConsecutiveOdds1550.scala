@@ -1,3 +1,5 @@
+package array
+
 object ThreeConsecutiveOdds1550 {
   def threeConsecutiveOdds(arr: Array[Int]): Boolean = {
     for(i<-0 to arr.size-3){

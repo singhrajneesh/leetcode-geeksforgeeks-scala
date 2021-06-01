@@ -1,3 +1,5 @@
+package array
+
 object SpecialPositionsBinaryMatrix1582 {
     def numSpecial(mat: Array[Array[Int]]): Int = {
       val col=mat(0).length
