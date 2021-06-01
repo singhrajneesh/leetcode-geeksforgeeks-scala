@@ -1,3 +1,5 @@
+package array
+
 object MinimumValuetoGetPositiveStepbyStepSum1413 {
     def minStartValue(nums: Array[Int]): Int = {
       var i=0

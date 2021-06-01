@@ -1,3 +1,5 @@
+package array
+
 object MinimumNumberofOperationstoMoveAllBallsEachBox1769 {
   def minOperations(boxes: String): Array[Int] = {
     var output=new Array[Int](boxes.size)

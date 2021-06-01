@@ -1,3 +1,5 @@
+package array
+
 object CountNumberTeams1395 {
 
   def numTeams(rating: Array[Int]): Int = {

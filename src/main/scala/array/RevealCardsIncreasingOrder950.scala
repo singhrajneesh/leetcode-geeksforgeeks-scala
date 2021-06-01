@@ -1,3 +1,5 @@
+package array
+
 import scala.collection.mutable
 
 object RevealCardsIncreasingOrder950 {

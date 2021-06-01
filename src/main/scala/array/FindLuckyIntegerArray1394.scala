@@ -1,3 +1,5 @@
+package array
+
 object FindLuckyIntegerArray1394 {
   def findLucky(arr: Array[Int]): Int = {
     val mapOfFrequency=scala.collection.mutable.Map[Int,Int]()

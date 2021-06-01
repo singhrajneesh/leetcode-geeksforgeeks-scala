@@ -1,3 +1,5 @@
+package array
+
 object CountSquareSubmatricesAllOnes1277 {
   def countSquares(matrix: Array[Array[Int]]): Int = {
     var output = Array.ofDim[Int](matrix.length, matrix(0).length)

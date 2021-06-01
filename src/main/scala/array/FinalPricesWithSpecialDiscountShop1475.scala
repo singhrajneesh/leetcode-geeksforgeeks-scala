@@ -1,3 +1,5 @@
+package array
+
 object FinalPricesWithSpecialDiscountShop1475 {
     def finalPrices(prices: Array[Int]): Array[Int] = {
       val newArr=new Array[Int](prices.length)

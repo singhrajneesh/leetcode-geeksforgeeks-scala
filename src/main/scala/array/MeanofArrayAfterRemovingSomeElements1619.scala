@@ -1,3 +1,5 @@
+package array
+
 object MeanofArrayAfterRemovingSomeElements1619 {
   def trimMean(arr: Array[Int]): Double = {
     val numToBeRemoved=(arr.size*0.05).toInt

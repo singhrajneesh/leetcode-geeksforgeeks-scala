@@ -1,3 +1,5 @@
+package array
+
 object CountLargestGroup1399 {
     def countLargestGroup(n: Int): Int = {
       val mapOfSummation=scala.collection.mutable.Map[Int,Int]()

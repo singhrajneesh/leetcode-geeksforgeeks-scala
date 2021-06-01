@@ -1,3 +1,5 @@
+package array
+
 object QueriesOnPermutationWithKey1409 {
     def processQueries(queries: Array[Int], m: Int): Array[Int] = {
       val P=scala.collection.mutable.ArrayBuffer[Int]()
