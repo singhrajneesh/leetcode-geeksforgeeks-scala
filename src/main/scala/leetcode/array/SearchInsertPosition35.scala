@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object SearchInsertPosition35 {
   def searchInsert(nums: Array[Int], target: Int): Int = {

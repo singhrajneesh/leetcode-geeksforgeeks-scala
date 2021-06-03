@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object MinimumNumberofOperationstoMoveAllBallsEachBox1769 {
   def minOperations(boxes: String): Array[Int] = {

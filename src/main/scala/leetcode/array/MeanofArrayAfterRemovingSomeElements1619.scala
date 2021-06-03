@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object MeanofArrayAfterRemovingSomeElements1619 {
   def trimMean(arr: Array[Int]): Double = {

@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object SpecialPositionsBinaryMatrix1582 {
     def numSpecial(mat: Array[Array[Int]]): Int = {

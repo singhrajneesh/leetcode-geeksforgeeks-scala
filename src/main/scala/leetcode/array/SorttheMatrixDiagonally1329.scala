@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object SorttheMatrixDiagonally1329 {
   def diagonalSort(mat: Array[Array[Int]]): Array[Array[Int]] = {

@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object FindAllDuplicatesArray442 {
   def findDuplicates(nums: Array[Int]): List[Int] = {

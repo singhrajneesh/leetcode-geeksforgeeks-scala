@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object MinimumValuetoGetPositiveStepbyStepSum1413 {
     def minStartValue(nums: Array[Int]): Int = {

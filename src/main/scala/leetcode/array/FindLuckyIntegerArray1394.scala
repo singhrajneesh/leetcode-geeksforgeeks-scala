@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object FindLuckyIntegerArray1394 {
   def findLucky(arr: Array[Int]): Int = {

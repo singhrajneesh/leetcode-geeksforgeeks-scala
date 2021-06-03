@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object FinalPricesWithSpecialDiscountShop1475 {
     def finalPrices(prices: Array[Int]): Array[Int] = {

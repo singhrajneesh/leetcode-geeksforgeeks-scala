@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object ThreeConsecutiveOdds1550 {
   def threeConsecutiveOdds(arr: Array[Int]): Boolean = {

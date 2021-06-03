@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object CountSquareSubmatricesAllOnes1277 {
   def countSquares(matrix: Array[Array[Int]]): Int = {

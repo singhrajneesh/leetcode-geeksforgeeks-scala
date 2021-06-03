@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object CountLargestGroup1399 {
     def countLargestGroup(n: Int): Int = {

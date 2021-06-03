@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 import scala.collection.mutable._
 
 object QueensThatCanAttackKing1222 {

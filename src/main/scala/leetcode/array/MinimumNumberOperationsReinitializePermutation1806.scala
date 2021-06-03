@@ -1,4 +1,4 @@
-package array
+package leetcode.array
 
 object MinimumNumberOperationsReinitializePermutation1806 {
   def reinitializePermutation(n: Int): Int = {
