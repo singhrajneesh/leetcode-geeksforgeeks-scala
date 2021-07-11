@@ -24,12 +24,12 @@ object TailRecursion {
     factorialAcc(1, n)
   }
 
-  @tailrec def factorial(n: Int): Int = {
+/*  @tailrec def factorial(n: Int): Int = {
     if (n == 1)
       1
     else
       n * factorial(n - 1)
-  }
+  }*/
 
 
 //    println(factorial(5))
