@@ -6,6 +6,10 @@ object DiamondProblem extends App {
  // Unlike Java 8, Scala solves this diamond problem automatically by following some rules defined in Language.
  // Those rules are called “Class Linearization”.
 
+
+  //Defination Of Traits
+  //Traits are similar in spirit to interfaces in Java programming language.
+  //  Unlike a class, Scala traits cannot be instantiated and have no arguments or parameters
   trait A{
     def display(){ println("From A.display")  }
   }

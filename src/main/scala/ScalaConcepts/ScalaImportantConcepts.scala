@@ -14,13 +14,19 @@ object ScalaImportantConcepts extends App {
       case None => str
     }
   }
+
+
+
   //define an option
   val list=List(None,Some(1),Some(2),Some(3),None)
   //None,Some(1),Some(2),Some(3),None
   list.map(println(_))
+
   // null pointer exception
   //list.map(x=>println(x.get))
-  //It will print only some values only as option are either one or zero elements
+
+  //It will print only some values only as option are either one or zero elements means this will number
+  // or inside of some and None
   list.map(x=>x.map(println))
   //Option is an abstract class. Option has two subclasses: Some and None.
   //All three (Option, Some and None) are defined in “scala” package like “scala.Option”.
@@ -161,6 +167,10 @@ object ScalaImportantConcepts extends App {
 
 
   //Companion Object
+  //First, a companion object and its class can access each other’s private members (fields and methods)
+
+  //Second You can create new instances of certain classes without having to use the new keyword before the class name.
+  //This functionality comes from the use of companion objects. What happens is that when you define an apply method in a companion object, it has a special meaning to the Scala compiler.
   val school=new School(School.xConstants,School.yConstants)
   school printingElements()
 
@@ -237,4 +247,53 @@ object ScalaImportantConcepts extends App {
     }
   }
 
+  //Lazy val
+  //Data type of volumeParamerOfCube variable will be Int
+  private lazy val volumeParametersOfCube={
+      val length=10
+      val breadth=10
+      10
+  }
+
+  def takeZeroArgument():Int={
+    print("this is justchecking")
+    30
+  }
+  def takeOneArgument(x:Int):Int={
+    print(s"this is one argument + $x")
+    x
+  }
+  def executeTheFunction( thisFunctionTakeZeroArgumentAndReturnUnit: =>Unit,str:String)=
+    { println(thisFunctionTakeZeroArgumentAndReturnUnit)
+      println(str)}
+  executeTheFunction({
+    takeOneArgument(10)
+
+    takeZeroArgument()
+  },"checkingNewType")
+
+  executeTheFunction({
+    takeOneArgument(10)
+  },"checkingNewType")
+
+
+
+
+  //  The primary difference between reduce and fold is that reduce doesn't take seed value but fold does require one to begin with.
+  //  But, there is limitation to fold/reduce. They return a single value for a given collection. In this case though, we need the intermediate results of fold/reduce operations stored somewhere.
+  //  That is exactly was scan operation does. For a collection, it performs the given operation starting with seed value(just like fold) and uses the result of the operation for next comparison. Finally, it returns a collection.
+
+
+
+  val suming = (x:Int, y:Int ) => x+y
+  val multiplying = (x:Int, y:Int) => x*y
+
+  def takeFuntion(f :(Int,Int) => Int, x:Int, y:Int):Unit= {
+    println(f(x,y))
+  }
+
+  takeFuntion(suming, 10 ,20)
+  takeFuntion(multiplying, 10 ,20)
 }
+
+
